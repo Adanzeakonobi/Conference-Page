@@ -638,7 +638,6 @@ nav a.campaign {
 
   .navbar-list {
     display: flex;
-    /* margin-left: 150px; */
     gap: 25px;
     margin: 1% 7% 1% 0;
   }

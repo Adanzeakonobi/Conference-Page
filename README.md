@@ -1,56 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML-CSS-JS-Capstone project
 
-> Description the project.
-
+Building an online website for a training conference
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://adanzeakonobi.github.io/HTML-CSS-JS-Capstone-/)
 
+## Page presentation video
+
+https://www.loom.com/share/5500fa940f98410a9524e291ea785336
 
 ## Getting Started
+> To get a local copy follow the following steps:
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- Copy this link https://github.com/Adanzeakonobi/HTML-CSS-JS-Capstone-.git
+- Open your terminal or command line
+- Run git clone and paste the link
+- Open the folder with your code editor
+- Create a branch to work on
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Okoye Adaobi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@adanzeakonobi)](https://github.com/adanzeakonobi)
 
-👤 **Author2**
+👤 **Adaobi Okoye**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@adanzeakonobi)](https://github.com/adanzeakonobi)
 
 ## 🤝 Contributing
 
