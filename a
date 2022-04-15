@@ -1,0 +1,22 @@
+/*<script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PVFKM922RK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PVFKM922RK");
+    </script>*/
+
+
+   
+
+.navbar-list {
+    display: flex;
+    margin-left: 150px;
+    gap: 10px;
+}

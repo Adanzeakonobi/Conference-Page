@@ -53,9 +53,11 @@ a {
   width: 80px;
   height: 80px;
   cursor: pointer;
+  /*background: #272a31;
+  border-radius: 5px;*/
 }
 
-.ham-line {
+.hamb-line {
   width: 50px;
   height: 6px;
   background: #272a31;
@@ -159,7 +161,7 @@ a {
   line-height: 52px;
   -webkit-text-fill-color: rgba(250, 0, 0, 0.637);
   -webkit-background-clip: text;
-  background-image: url(images/platform23.jpg);
+  background-image: url(../img/background.png);
   background-blend-mode: darken;
   background-size: 150px;
 }
@@ -203,6 +205,13 @@ a {
   margin: 0 8%;
 }
 
+.about-main {
+  background: url(../img/TRAINMAIN.jpg);
+  background-repeat: repeat-x;
+  margin: 0;
+  padding: 0;
+}
+
 .main-program {
   background: url(../img/starrepeat-bg.png);
   margin: 0;
@@ -232,24 +241,27 @@ a {
 .main-flex-item {
   display: grid;
   flex-direction: column;
-  margin: 0.3%;
+  margin: 0.2%;
   background: rgba(233, 233, 233, 0.1);
   box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
   align-items: center;
   height: 20vh;
+  grid-template: 1fr /0.3fr 0.9fr 3fr;
 }
 
 .main-flex-item img {
   width: 60px;
   margin-top: 10%;
   margin-bottom: 0;
+  margin-left: 10px;
 }
 
 .main-flex-item h5 {
   color: #ec5242;
   font-family: lato, sans-serif;
   font-size: 18px;
- 
+  min-width: 83px;
+  margin-left: 10px;
   text-align: center;
 }
 
@@ -257,7 +269,7 @@ a {
   text-align: center;
   margin: 0 8%;
   font-family: cocogoose, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   color: #d3d3d3;
 }
 
@@ -472,12 +484,12 @@ a {
 
 .navbar {
   display: flex;
-    background-color: #d3d3d3;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #d3d3d3;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-icons {
@@ -495,9 +507,7 @@ a {
   display: flex;
   margin-left: 150px;
   gap: 10px;
-  navbar-list
 }
-
 
 .about-navbar {
   display: flex;
@@ -523,6 +533,48 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  margin: 1% 10%;
+}
+
+.logo2 {
+  display: none;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.list-items a {
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #272a31;
+}
+
+.list-items1 a {
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ec5242;
+}
+
+.close-button {
+  display: none;
+}
+
+.hamburger-btn {
+  display: none;
+}
+
+.campaign a {
+  margin-left: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(236, 82, 66);
+  border-image: initial;
+  padding: 10px;
+}
 
 .home-main {
   background: url(../img/background.png);
@@ -554,7 +606,7 @@ a {
   line-height: 52px;
   -webkit-text-fill-color: rgba(250, 0, 0, 0.637);
   -webkit-background-clip: text;
-  background-image: url(images/platform23.jpg);
+  background-image: url(../img/TRAINMAIN.jpg);
   background-blend-mode: darken;
   background-size: 150px;
 }
@@ -585,7 +637,7 @@ a {
 }
 
 .about-main {
-  background: url(images/unnamed-4.jpg);
+  background: url(../img/TRAINMAIN.jpg);
   background-repeat: repeat-x;
   margin: 0;
   padding: 0;
@@ -878,7 +930,7 @@ a {
 
 .about-sub p {
   text-align: center;
-  margin: 0 30%;
+  margin: 0 20%;
   font-family: lato, sans-serif;
   font-size: 12px;
   color: #272a31;
@@ -890,7 +942,7 @@ a {
   margin: 4vh 30%;
   width: 40%;
   padding-left: 10%;
-  padding-top: 4vh;
+  padding-top: 4vh
 }
 
 .about-minor {
@@ -925,13 +977,14 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 10vh;
+  flex-direction: row;
 }
 
 .about-cont1 {
   width: 30vw;
   height: 30vh;
   margin: 1%;
-  background: url("images/PIX-1651-650x400.jpg");
+  background: url("../img/training1.jpg");
   padding-bottom: 2vh;
 }
 
@@ -939,7 +992,7 @@ a {
   width: 30vw;
   height: 30vh;
   margin: 1%;
-  background: url("images/E_VXwJzXIAItswe.jpg");
+  background: url("../img/training2.jpg");
   background-position: -50%;
   padding-bottom: 2vh;
 }
