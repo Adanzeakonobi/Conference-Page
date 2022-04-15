@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-@import url('https://fonts.google.com/specimen/Crete+Round?query=crete');
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.google.com/specimen/Crete+Round?query=crete");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body,
@@ -35,6 +35,11 @@ a {
   display: none;
 }
 
+nav a {
+  color: #56575a;
+  font-weight: bold;
+}
+
 .nav-icons {
   display: none;
 }
@@ -52,7 +57,8 @@ a {
   display: none;
 }
 
-.home-main, .about-main {
+.home-main,
+.about-main {
   background: url(../img/background.png);
   background-repeat: repeat-x;
   margin: 0;
@@ -64,8 +70,6 @@ a {
   width: 80px;
   height: 80px;
   cursor: pointer;
-  /*background: #272a31;
-  border-radius: 5px;*/
 }
 
 .hamb-line {
@@ -106,11 +110,6 @@ a {
   padding: 10px 0;
 }
 
-nav a {
-  color: #56575a;
-  font-weight: bold;
-}
-
 nav a.active {
   color: rgb(236, 82, 66);
   font-weight: bold;
@@ -143,13 +142,13 @@ nav a.campaign {
   align-items: flex-start;
 }
 
+.sponsor li {
+  margin: 3vh 15px;
+}
+
 .menu-open .about-navbar {
   flex-direction: column;
   align-items: flex-start;
-}
-
-.sponsor li {
-  margin: 3vh 15px;
 }
 
 .menu-open .nav-items li {
@@ -188,7 +187,8 @@ nav a.campaign {
   padding: 0;
 }
 
-.main-conta h1, .about-main-cont h1 {
+.main-conta h1,
+.about-main-cont h1 {
   font-family: cocogoose, sans-serif;
   font-size: 55px;
   margin: 0;
@@ -440,12 +440,6 @@ nav a.campaign {
   list-style-type: none;
   margin: 0;
   text-align: center;
-}
-
-.sponsor ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: center;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
@@ -474,13 +468,11 @@ nav a.campaign {
 
 .about-footer {
   display: flex;
-  /* margin: 0 15%; */
   background: #fff;
   padding: 7vh;
 }
 
 .about-footer img {
-  /*margin-right: 5%;*/
   width: 30%;
 }
 
@@ -536,7 +528,7 @@ nav a.campaign {
   margin: 3%;
   width: auto;
   height: 30vh;
-  background: url('../img/training1.jpg');
+  background: url("../img/training1.jpg");
 }
 
 .about-cont11 {
@@ -555,7 +547,7 @@ nav a.campaign {
   width: auto;
   margin: 3%;
   height: 30vh;
-  background: url('../img/training2.jpg');
+  background: url("../img/training2.jpg");
   background-position: -50%;
   padding-bottom: 2vh;
 }
@@ -698,13 +690,13 @@ nav a.campaign {
     color: #272a31;
   }
 
-  <element
-    class='list-items1'
+  /*<element
+    class="list-items1"
     > <a
     > </a
     > </element
     > <a
-    class='list-items1'
+    class="list-items1"
     > </a
     > .list-items1
     a {
@@ -712,7 +704,7 @@ nav a.campaign {
     font-weight: bold;
     font-size: 12px;
     color: #ec5242;
-  }
+  }*/
 
   .close-button {
     display: none;
@@ -731,7 +723,8 @@ nav a.campaign {
     padding: 10px;
   }
 
-  .home-main, .about-main {
+  .home-main,
+  .about-main {
     background: url(../img/background.png);
     background-repeat: repeat-x;
     margin: 0;
@@ -751,7 +744,8 @@ nav a.campaign {
     padding: 0;
   }
 
-  .main-conta h1, .about-main-cont h1 {
+  .main-conta h1,
+  .about-main-cont h1 {
     font-family: cocogoose, sans-serif;
     font-size: 55px;
     margin: 0;
@@ -1050,13 +1044,6 @@ nav a.campaign {
     font-weight: bold;
   }
 
-  .footer-p1 {
-    color: #272a31;
-    font-family: lato, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-  }
-
   .footer-p2 {
     color: #272a31;
     font-family: lato, sans-serif;
@@ -1137,7 +1124,7 @@ nav a.campaign {
     width: 30vw;
     height: 30vh;
     margin: 1%;
-    background: url('../img/training1.jpg');
+    background: url("../img/training1.jpg");
     padding-bottom: 2vh;
   }
 
@@ -1145,7 +1132,7 @@ nav a.campaign {
     width: 30vw;
     height: 30vh;
     margin: 1%;
-    background: url('../img/training2.jpg');
+    background: url("../img/training2.jpg");
     background-position: -50%;
     padding-bottom: 2vh;
   }
