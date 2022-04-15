@@ -4,6 +4,8 @@
 
 Building an online website for a training conference
 
+![screenshot](./img/sampleproject.PNG)
+
 ## Built With
 
 - HTML
@@ -16,7 +18,7 @@ Building an online website for a training conference
 
 ## Page presentation video
 
-https://www.loom.com/share/5500fa940f98410a9524e291ea785336
+https://www.loom.com/share/643b9f385d9e4d22a14504c63d5134e0
 
 ## Getting Started
 > To get a local copy follow the following steps:
