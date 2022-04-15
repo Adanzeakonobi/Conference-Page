@@ -15,8 +15,136 @@
 
    
 
-.navbar-list {
+.about-main-cont-p2 {
+    margin: 3vh 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: #272a31;
+    text-align: center;
+    background: #fff;
+    /* padding: 3%; */
+}
+
+.about-main-cont-p3 {
+    margin: 0 8%;
+    font-size: 13px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.about-main-cont-p3 {
+    font-family: lato, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.about-main-cont-p4 {
+    font-family: lato, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-sub h3 {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: #272a31;
+    text-align: center;
+    width: 100%;
+    padding-top: 8vh;
+    margin: 0;
+}
+
+.about-sub-img {
+    /* margin: 4vh 10%; */
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}
+
+.about-sub hr {
+    width: 2%;
+    border-color: #ec5242;
+}
+
+.about-sub p {
+    margin: 0;
+    padding: 5%;
+}
+
+.about-minor-h3 {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: #272a31;
+    text-align: center;
+    width: 100%;
+    padding-top: 8vh;
+    margin: 0;
+}
+
+.about-flex {
+    flex-direction: column;
+    padding: 5%;
+}
+
+.about-cont1 {
+    width: auto;
+    margin: 3%;
+}
+
+.about-cont11 {
     display: flex;
-    margin-left: 150px;
-    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(248, 8, 8, 0.5);
+    height: 100%;
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 0;
+}
+
+.about-minor-h32 {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #d3d3d3;
+    margin: 0;
+}
+
+.about-minor-p2 {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.about-footer {
+    display: flex;
+    padding: 7vh 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #272a31;
+}
+
+.about-footer img {
+    margin-right: 5%;
+    width: 120px;
+}
+
+.footer-text {
+    margin-left: 5%;
+}
+
+.about-footer-p1 {
+    color: #272a31;
+}
+
+.about-footer-p2 {
+    color: #272a31;
 }
