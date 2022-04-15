@@ -106,6 +106,10 @@ nav a {
   margin: 60px 0 0 30px;
 }
 
+.sponsor li {
+  margin: 3vh 15px;
+}
+
 .menu-open nav li {
   padding: 10px 0;
 }
@@ -140,10 +144,6 @@ nav a.campaign {
 .menu-open .navbar {
   flex-direction: column;
   align-items: flex-start;
-}
-
-.sponsor li {
-  margin: 3vh 15px;
 }
 
 .menu-open .about-navbar {
@@ -446,10 +446,6 @@ nav a.campaign {
   justify-content: center;
 }
 
-.sponsor li {
-  margin: 3vh 10px;
-}
-
 .sponsor img {
   width: 90px;
 }
@@ -642,7 +638,7 @@ nav a.campaign {
 
   .navbar-list {
     display: flex;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     gap: 25px;
     margin: 1% 7% 1% 0;
   }
@@ -690,7 +686,7 @@ nav a.campaign {
     color: #272a31;
   }
 
-  /*<element
+  /* <element
     class="list-items1"
     > <a
     > </a
@@ -704,7 +700,7 @@ nav a.campaign {
     font-weight: bold;
     font-size: 12px;
     color: #ec5242;
-  }*/
+  } */
 
   .close-button {
     display: none;
@@ -886,7 +882,6 @@ nav a.campaign {
     color: #ec5242;
     font-family: lato, sans-serif;
     font-size: 18px;
-
     text-align: center;
   }
 
@@ -1049,6 +1044,7 @@ nav a.campaign {
     font-family: lato, sans-serif;
     font-size: 12px;
   }
+
   .about-sub {
     border-bottom: 0.5px solid #d3d3d3;
   }
